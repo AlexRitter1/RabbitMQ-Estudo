@@ -1,4 +1,4 @@
-package com.ritter.mail_microservice;
+package com.ritter.mail_ms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

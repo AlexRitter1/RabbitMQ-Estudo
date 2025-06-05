@@ -18,7 +18,7 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    @PostMapping("/user")
+    @PostMapping("/users")
     public ResponseEntity<UserModel> saveUser(@RequestBody @Valid UserDTO userDTO) {
         var user = new UserModel();
         BeanUtils.copyProperties(userDTO, user);

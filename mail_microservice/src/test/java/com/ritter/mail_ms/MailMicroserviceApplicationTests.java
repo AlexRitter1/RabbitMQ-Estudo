@@ -1,4 +1,4 @@
-package com.ritter.mail_microservice;
+package com.ritter.mail_ms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
